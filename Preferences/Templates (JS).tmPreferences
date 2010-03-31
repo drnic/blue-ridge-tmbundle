@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Templates (JS)</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_JS_FUNCT_NO_ARGS_START</string>
+				<key>value</key>
+				<string>function() {</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>TM_JS_FUNCT_END</string>
+				<key>value</key>
+				<string>}</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>TM_JS_EXPR_END</string>
+				<key>value</key>
+				<string>;</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>TM_JS_OPTIONAL_PAREN_START</string>
+				<key>value</key>
+				<string>(</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>TM_JS_OPTIONAL_PAREN_END</string>
+				<key>value</key>
+				<string>)</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>TM_JS_ASSIGN</string>
+				<key>value</key>
+				<string> =</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>3566F50F-FF2C-4C9D-8BB7-D5F3E6C86C9A</string>
+</dict>
+</plist>

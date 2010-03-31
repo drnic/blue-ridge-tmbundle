@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>describe("${1:description}", function(){
+	<string>describe${TM_JS_OPTIONAL_PAREN_START}"${1:description}", ${TM_JS_FUNCT_NO_ARGS_START}
   $0
-});</string>
+${TM_JS_FUNCT_END}${TM_JS_OPTIONAL_PAREN_END}${TM_JS_EXPR_END}</string>
 	<key>name</key>
 	<string>describe</string>
 	<key>scope</key>
-	<string>source.js.screw-unit</string>
+	<string>source.js.screw-unit,source.coffee.screw-unit</string>
 	<key>tabTrigger</key>
 	<string>des</string>
 	<key>uuid</key>

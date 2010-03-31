@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>spec.js</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>^.*\bfunction\s*(\w+\s*)?\([^\)]*\)(\s*\{[^\}]*)?\s*$</string>
+	<key>foldingStopMarker</key>
+	<string>^\s*\}</string>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
+	<key>name</key>
+	<string>Screw.Unit (CoffeeScript)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.js</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(describe|it|after|before|expect|to|to_not)\b</string>
+			<key>name</key>
+			<string>support.function.js.spec</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.coffee.screw-unit</string>
+	<key>uuid</key>
+	<string>A1120B58-66D8-47F2-8302-9971CFF96483</string>
+</dict>
+</plist>

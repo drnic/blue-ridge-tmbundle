@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>require("${1:/specs/spec_helper}");</string>
+	<string>require${TM_JS_OPTIONAL_PAREN_START}"${1:/specs/spec_helper}"${TM_JS_OPTIONAL_PAREN_END}${TM_JS_EXPR_END}</string>
 	<key>name</key>
 	<string>require</string>
 	<key>scope</key>
-	<string>source.js.screw-unit</string>
+	<string>source.js.screw-unit,source.coffee.screw-unit</string>
 	<key>tabTrigger</key>
 	<string>req</string>
 	<key>uuid</key>

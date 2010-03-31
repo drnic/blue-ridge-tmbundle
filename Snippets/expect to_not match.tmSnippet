@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>expect(${1:target}).to_not(match, ${2:value});</string>
+	<string>expect(${1:target}).to_not(match, ${2:value})${TM_JS_EXPR_END}</string>
 	<key>name</key>
 	<string>expect to_not match</string>
 	<key>scope</key>
-	<string>source.js.screw-unit</string>
+	<string>source.js.screw-unit,source.coffee.screw-unit</string>
 	<key>tabTrigger</key>
 	<string>exnm</string>
 	<key>uuid</key>

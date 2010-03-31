@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Screw.Matchers['${1:matcher}']: {
+  match: (expected, actual) -&gt; 
+    ${2:actual.indexOf(expected) != -1}
+  failure_message: (expected, actual, butnot) -&gt;
+    "expected \${\$.print(actual)}\${butnot ? ' not' : ''} to include \${\$(expected)}"
+}
+</string>
+	<key>name</key>
+	<string>matcher (CoffeeScript)</string>
+	<key>scope</key>
+	<string>source.coffee.screw-unit</string>
+	<key>tabTrigger</key>
+	<string>matcher</string>
+	<key>uuid</key>
+	<string>76AA812B-4D7D-4B9F-A510-902B91ACC186</string>
+</dict>
+</plist>

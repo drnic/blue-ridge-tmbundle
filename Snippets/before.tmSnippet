@@ -3,13 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>before(function(){
+	<string>before${TM_JS_OPTIONAL_PAREN_START}${TM_JS_FUNCT_NO_ARGS_START}
   $0
-});</string>
+${TM_JS_FUNCT_END}${TM_JS_OPTIONAL_PAREN_END}${TM_JS_EXPR_END}
+</string>
 	<key>name</key>
 	<string>before</string>
 	<key>scope</key>
-	<string>source.js.screw-unit</string>
+	<string>source.js.screw-unit,source.coffee.screw-unit</string>
 	<key>tabTrigger</key>
 	<string>bef</string>
 	<key>uuid</key>
